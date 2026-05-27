@@ -1,0 +1,15 @@
+[submodule "z80"]
+	path = z80
+	url = https://github.com/superzazu/z80.git
+[submodule "opm"]
+	path = opm
+	url = https://github.com/nukeykt/Nuked-OPM.git
+[submodule "vst3sdk"]
+	path = vst3sdk
+	url = https://github.com/steinbergmedia/vst3sdk.git
+[submodule "sdl3"]
+	path = sdl3
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "rtmidi"]
+	path = rtmidi
+	url = https://github.com/thestk/rtmidi.git

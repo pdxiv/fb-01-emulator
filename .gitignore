@@ -1,0 +1,16 @@
+# Build output
+build/
+
+# ROM files (user-supplied, not distributed)
+rom/*.bin
+rom/*.ic11
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
