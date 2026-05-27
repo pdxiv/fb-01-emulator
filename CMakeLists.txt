@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.0)
 
-project(fb01-vst
+project(fb-01-emulator
     VERSION 1.0.0
     DESCRIPTION "Yamaha FB-01 FM Sound Generator Emulator"
     LANGUAGES C CXX
@@ -156,7 +156,7 @@ if(FB01_BUILD_STANDALONE)
     endif()
     add_subdirectory(rtmidi SYSTEM EXCLUDE_FROM_ALL)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS_SAVED3}")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS3_SAVED}")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS_SAVED3}")
 
     # Standalone executable
     add_executable(fb01-standalone

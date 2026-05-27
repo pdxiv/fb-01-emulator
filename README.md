@@ -1,4 +1,4 @@
-# FB-01 VST3
+# fb-01-emulator
 
 A cycle-accurate emulator of the **Yamaha FB-01 FM Sound Generator** (1986), packaged as a VST3 plugin.
 
@@ -34,8 +34,8 @@ Also install [Visual Studio Build Tools](https://visualstudio.microsoft.com/down
 ### Clone
 
 ```bash
-git clone --recursive https://github.com/your-username/fb01-vst.git
-cd fb01-vst
+git clone --recursive https://github.com/pdxiv/fb-01-emulator.git
+cd fb-01-emulator
 ```
 
 If you already cloned without `--recursive`:
